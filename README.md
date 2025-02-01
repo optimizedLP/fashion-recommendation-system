@@ -13,8 +13,9 @@ A content-based fashion recommendation system using **VGG16** to extract image f
 2. Run the Jupyter notebook *frs.ipynb*
 
    # Example input
-   ```input_image_path = 'women fashion/red velvet sheath midi dress.jpg'
-      recommend_fashion_items_cnn(input_image_path, all_features, all_image_names, model, top_n=5)
+   ```bash
+   input_image_path = 'women fashion/red velvet sheath midi dress.jpg'
+   recommend_fashion_items_cnn(input_image_path, all_features, all_image_names, model, top_n=5)
    
 3. View recommendations in a matplotlib window.
 
